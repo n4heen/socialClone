@@ -36,7 +36,7 @@ export default function Tweetbox() {
                             <CalendarIcon className='h-5 w-5' />
                             <MapPinIcon className='h-5 w-5' />
                         </div>
-                        <button disabled={!input} className='bg-twitter px-5 py-2 font-bold text-white rounded-full'>Tweet</button>
+                        <button disabled={!input} className='bg-twitter px-5 py-2 font-bold text-white rounded-full disabled:opacity-40'>Tweet</button>
                     </div>
                 </form>
             </div>
